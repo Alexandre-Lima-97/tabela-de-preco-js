@@ -1,0 +1,204 @@
+* {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.navigation-bar {
+        background-color: #4f4b4b;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navigation-bar-color{
+        background-color: #4f4b4b;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+        font-size: 24px;
+        color: #fff;
+}
+
+.main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+}
+
+.main-button {
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        padding: 8px 15px 8px 15px;
+        font-size: 19px;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        background-color: #00a849;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        
+}
+
+
+.main-container {
+        width: 70vw;
+        height: 80vh;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.login-container {
+        width: 480px;
+        height: 600px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+        justify-items: stretch;
+}
+
+form input {
+        width: 375px;
+        font-size: 20px;
+        padding: 12px;
+        height: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(194, 194, 194);
+}
+
+form button {
+        width: 400px;
+        font-size: 20px;
+        height: 46px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(194, 194, 194);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: #00a849;
+        color: #fff;
+}
+
+form button:hover {
+        cursor: pointer;
+        background-color: #039c46;;
+}
+
+form input:focus{
+        outline: 1px solid #039c46;
+        box-shadow: rgba(62, 62, 78, 0.2) 0px 7px 29px 0px;
+}
+.main-button:hover{
+        background-color: #039c46;
+}
+
+.login-title {
+        margin: 50px;
+        align-content: center;
+        text-align: center;
+}
+
+.text-click {
+        margin-top: 30px;
+        text-align: center;
+}
+
+
+a {
+        text-decoration: none;
+        color: #000;
+
+}
+h1 {
+        padding-bottom: 15px;
+}
+
+h4{
+        text-align: center;
+}
+
+.bg{
+        width: 100vw;
+        height: 90vh;
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+}
+
+.exit-button a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+}
+
+.exit-button a:hover{
+        color: rgb(240, 2, 2);
+}
+.div-error{
+        width: 400px;
+        height: 40px;
+        border: 1px rgb(206, 81, 81) solid; 
+        background-color: rgb(238, 151, 151);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(117, 0, 0);
+}
+
+.row-tables{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        width: 70vw;
+}
+
+.row-table-main {
+        display: flex;
+       align-items: center;
+       align-self: center;
+       justify-content: space-between;
+       width: 65vw;
+        
+}
+
+hr {
+        border-top: 1px solid rgb(12, 124, 46);
+        padding-left: 65vw;
+}
+
+.textbutton-function {
+        color: #099c49;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.1ch;
+
+}
+.textbutton-function:hover {
+        color: #044b23;
+}

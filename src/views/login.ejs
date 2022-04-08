@@ -1,0 +1,24 @@
+<%- include('includes/head') %>
+<%- include('includes/nav') %>
+<body>
+        <div class="bg">
+                <div class="login-container main-content">
+                <% if(user) { %>
+                        <h1 class="login-title">Você já está logado</h1>
+                <% } else { %>
+                        <h1 class="login-title">Login</h1>
+                        <h4>Faça Login para acessar o sistema</h4>
+                        <%- include('includes/message'); %>
+                        <form action="/login/login" method="POST">
+                                <input type="hidden" name="_csrf" value=<%= csrfToken %>>
+                                <input class="input" type="text" placeholder="Email" name="email">
+                                <input  class="input" type="password" placeholder="Senha" name="password">
+                                <button>Entrar</button>
+                        </form>
+
+                        <a class="text-click" href="/login/cadastro">Não possui conta? Cadastre-se</a>
+                </div>
+                <% } %>
+        </div>
+        </div>
+        <%- include('includes/footer') %>

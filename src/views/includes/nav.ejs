@@ -1,0 +1,22 @@
+<aside class="navigation-bar-color">
+        <nav class="navigation-bar main-content">
+                <div>
+                        <h1>
+                        <a class="title" href="/">Tabela de Preços</a>
+                        </h1>
+                </div>
+                <div>
+                        <% if(!user){%>
+                        <a class="main-button" href="/login" >
+                                Entrar
+                        </a>
+                        <% } else {%>
+                                <div class="exit-button" >
+                                        <a href="/logoff">
+                                                Sair
+                                        </a>
+                                </div>
+                        <% } %>
+                </div>
+        </nav>
+</aside>
